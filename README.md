@@ -6,6 +6,17 @@
 
     gperftools (formerly known as google-perftools): http://gperftools.googlecode.com
 
+## Install
+
+In your Gemfile add
+
+```ruby
+gem 'perftools-rb'
+```
+
+Then run `bundle install`. Alternatively run `$ gem install perftools-rb`.
+
+
 ## Usage (in a webapp)
 
   Use [rack-perftools_profiler](https://github.com/bhb/rack-perftools_profiler):
